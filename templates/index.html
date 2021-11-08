@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+	<title>{{title}}</title>
+</head>
+<body>
+	<nav>
+      <div class="navbar1">
+         <img src="static/media/logo.png" style="      padding:10px"; width="140px">
+         <ul class="contentnavbar">
+         
+            <a href="#" style=" margin-left: 120px;">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+            <a href="#">Activities</a>
+            <a href="#">More informations</a>
+         
+            <input type="text" class ="search"placeholder="   Search.."  >
+            <i class="fa fa-close" style="margin-left:-30px;margin-top:7px; color: grey;"></i>
+            <!--<i class="fa fa-search" style="margin-left:-200px;color: white;"></i>!-->
+            <il class="signInUp">
+               <button type="button" class="btn btn-outline-danger mx-3"  class="signin" >Sign In</button>
+               <button type="button" class="btn btn-outline-danger">Sign Up</button>
+            </il>
+         </ul>
+      </div>
+	</nav>
+	<div class="main">
+    {% block body %}{% endblock %}
+	</div>
+	<footer>
+	<table class="footer">
+      <tr>
+         <td rowspan="5" style="text-align: center;padding:20px"><img src="static/media/logo.png" width="280px" class="logo"></td>
+      </tr>
+      <tr>
+         <td colspan="3"><h1>Contact</h1></td>
+      </tr>
+      
+         <tr class="icon">
+            <td>
+               <i class="fa fa-facebook"></i>
+               <h3>Agora_Gym</h3>
+            </td>
+            <td><i class="fa fa-linkedin"></i><h3>Agora.Gym</h3></td>
+            <td><i class="fa fa-google"></i><h3>agora.gym@gmail.com</h3></td>			
+         </tr>
+         <tr class="icon">
+            <td><i class="fa fa-phone"></i><h3>TEL: 71 000 000</h3></td>
+            <td><i class="fa fa-envelope"></i><h3>AgoraGym</h3></td>
+            <td><i class="fa fa-twitter"></i><h3>Agora-Gym</h3></td>
+         </tr>
+      </table>
+	</footer>
+
+</body>
+</html>

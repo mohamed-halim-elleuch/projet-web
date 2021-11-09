@@ -18,7 +18,7 @@ a {
 .contentnavbar{
 	margin-left:15px;
 	margin-top: -11vmin;
-	width: 100%;
+	width: 100.5%;
 }
 div ul {
 	display: grid;
@@ -76,6 +76,113 @@ td{
 	min-height: min-content;
 	text-align: left;
 	display: inline-flexbox;
+}
+
+
+/* about section */
+
+.about{
+	width:100%;
+	padding: 50px 0px;
+	background-color: #191919;
+}
+
+.about img{
+	height: 460px;
+	width: 580px;
+	border-radius: 20px;
+}
+
+.pagination {
+	display: inline-flexbox;
+	padding-top: 25px ;
+	padding-left: 170px;
+  }
+  
+.pagination a {
+	color:linear-gradient(red,white);
+	float: left;
+	padding: 7px 15px;
+	text-decoration: none;
+	transition: background-color .3s;
+	border: 2px solid #ddd;
+	border-radius: 100%;
+  }
+  
+.pagination a.active {
+	background-color: #4CAF50;
+	color: rgb(161, 11, 11);
+	border: 1px solid #08310a;
+  }
+
+
+
+.about-text{
+	width:580px;
+	background-color: rgb(36, 3, 3);
+	padding: 22px;
+	border-radius: 20px;
+	box-shadow: 0 10px 15px 10px rgba(53, 53, 53, 0.2);
+}
+
+.main{
+	width:100%;
+	max-width: 95%;
+	margin:0 auto;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+
+.about h2{
+	color:white;
+	font-size:70px ;
+	text-transform: capitalize;
+	margin-bottom: 45px;
+	margin-top: -30px;
+	text-align: center;
+
+}
+
+.about-text h5{
+	color:rgb(230, 33, 33);
+	letter-spacing: 2px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 45px;
+	text-transform: capitalize;
+	 
+}
+
+.about-text p{
+	color:rgba(255, 255, 255, 0.8);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 25px;
+	text-align: justify;
+
+}
+.about-text .hidden{
+	display:block;
+
+}
+
+.about button{	
+	margin-top:20px;
+	background-color: #f9004d;
+	color: white;
+	text-decoration: none;
+	border:2px solid transparent;
+	font-weight: bold;
+	padding:13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.about button:hover{
+	background-color: transparent;
+	border:2px solid #f9004d;
+	cursor: pointer;
 }
 
 

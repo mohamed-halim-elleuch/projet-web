@@ -144,6 +144,9 @@ td{
 
 }
 
+
+
+
 .about-text h5{
 	color:rgb(230, 33, 33);
 	letter-spacing: 2px;
@@ -183,6 +186,33 @@ td{
 	background-color: transparent;
 	border:2px solid #f9004d;
 	cursor: pointer;
+}
+
+/* activities section */
+
+.activities{
+	width:100%;
+	padding: 50px 0px;
+	background-color: #292323;
+}
+
+.activities h2{
+	color:white;
+	font-size:70px ;
+	text-transform: capitalize;
+	margin-bottom: 45px;
+	margin-top: -20px;
+	text-align: center;
+
+}
+
+.activities .activities-text{
+	width:580px;
+	background-color: rgb(36, 3, 3);
+	padding: 22px;
+	border-radius: 20px;
+	box-shadow: 0 10px 15px 10px rgba(53, 53, 53, 0.2);
+
 }
 
 

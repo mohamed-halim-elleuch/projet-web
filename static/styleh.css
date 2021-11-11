@@ -1,0 +1,269 @@
+a {
+	text-decoration: none;
+	margin-right: 3.1rem;
+	margin-left: 1.5rem;
+	color: white;
+
+}
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.navbar1{
+	background: #444444;
+	height: 90px;
+	width:100%
+}
+.signInUp{
+    margin-top: -0.3rem;
+	display: -webkit-inline-flex;
+	margin-right: 30px;
+}
+
+.contentnavbar{
+	margin-left:15px;
+	margin-top: -10vmin;
+	width: 100%;
+
+}
+div ul {
+	display: grid;
+	grid-auto-flow:column;
+	grid-template-columns: auto auto auto auto;
+	grid-gap: 10px;
+	font-size: 105%;
+	width:70%;
+}
+.search{
+	border-radius: 15px;
+	height:fit-content;
+}
+a:hover{
+	color: red;
+}
+.footer {
+	width: 100%;
+	height: 210px;
+	margin-bottom: 0%;
+	background: #444444;
+}
+h1{
+
+    color: white;
+    font-family:sans-serif;
+}
+.icon{
+		color: white;
+}
+i{
+	margin-right: 2vw;
+	display: inline;
+	color: white;
+	
+}
+
+h3{
+		display: inline;
+		font-size: 15px;
+		color: white;
+}
+
+
+table{
+	width:100%;
+	margin-left: 0px;
+}
+
+td{
+	padding: 5px;
+	width: 150px;
+	min-height: min-content;
+	height: 50px;
+	min-height: min-content;
+	text-align: left;
+	display: inline-flexbox;
+}
+.image-container{
+	
+	width: 1550px;
+	height: 750px;
+	position: relative;
+
+}
+
+.image-container img {
+	width: 100%;
+	height: 100%;
+}
+
+
+.Agoragym {
+	
+    margin-top: -715px;
+    position: absolute;
+    margin-left: 90px;
+    font-weight: bold;
+    font-size: 40px;
+    transition-duration: 3s;
+    color: white;
+}
+.Agoragym:hover {
+	font-size: 50px;
+	color: rgb(255, 77, 77);
+
+}
+.slogan {
+	font-size: 21px;
+
+}
+
+.Agoragym p {
+	font-size: 25px;
+	margin-top: 40px;
+	font-family: monospace;
+	color: white;
+
+	}
+
+.checkboxx{
+	margin-top: -200px;
+    position: absolute;
+    margin-left: 90px;
+    font-size: 30px;
+
+}
+.hall{
+	font-size: 50px;
+	padding-top: -20px;
+
+}
+
+.hallcontent {	
+	width: 100%;
+	height: 662px;	
+	background-color: #808080;
+	position: relative;
+}
+
+.facilities {
+	text-align:center ;
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	font-family: serif;	
+	padding-top: 30px;
+	}
+
+.box {
+  margin-top: 100px;
+  padding-top: 30px;
+  padding-left: 10px;
+  padding-right:10px ;
+  color: white;
+  background-color: darkgrey;
+  box-shadow: 5px 5px 8px  white, 10px 10px 8px  grey, 15px 15px 8px  black;
+  width: 300px;
+  margin-left: 150px;
+  border-radius: 15px;
+
+}
+.box p{
+
+	font-size: 26px;
+	color: white;
+	text-align: center;
+	font-family: monospace;
+
+
+}
+.tab {
+	display: inline-flex;
+}
+
+#team {
+	width: 100%;
+	height: 750px;
+	background-color: black;
+}
+.team1 {
+	display: block;
+    margin-left: 100px;
+    margin-right: auto;
+    margin-top: 110px;
+}
+.name{
+	display: inline;
+    margin-left: 183px;
+    font-size: 22px;
+    color: white;
+    padding-top: 20px;
+
+}
+.fct{
+	display: inline;
+    margin-left: 166px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+
+}
+.fct2{
+	display: inline;
+    margin-left: 188px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+}
+
+td:hover{
+	color: red;
+
+}
+.act {
+	height: 700px;
+	width: all;
+	background-color: white;
+}
+.image {
+	margin-top: 40px;
+	margin-left: 75px;
+	width: 600px;
+	height: 300px
+}
+.description {
+	width: 600px;
+	height: 300px;
+	background-color:#808080 ;
+	margin-top: 5px;
+	margin-left: 75px;
+	border:  solid 2px;
+	border-color: red;
+	font-size: 25px;
+	padding: 35px;
+	text-align: center;
+}
+
+.description:hover {
+	color: white;
+}
+.hours1 {
+	width: 300px;
+	height: 450px;
+	text-align: center;
+    padding-top: 30px;
+    color: white;
+    font-size: 20px;
+    text-align: right;
+    margin-right: 100px;
+}
+
+
+
+
+
+

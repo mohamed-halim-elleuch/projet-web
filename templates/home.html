@@ -1,4 +1,13 @@
 {% extends "index.html" %}
+
+{% block head %}
+<link rel="stylesheet" type="text/css" href="static/styleh.css">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+<link rel="stylesheet" type="text/css" href="script.js">
+
+{% endblock %}
+
 {% block body %}
 <img name="diapo" width="1750" height="750">
 <script type="text/javascript" src="script.js"></script>
@@ -21,7 +30,7 @@
   </div>
 </div>
 <div class="navbar1">
-  <img src="logo.png" width="150px" style="margin-left:560px">
+  <img src="static/media/logo.png" width="150px" style="margin-left:560px">
   <h3 class="hall">SPORT HALL</h3>
 </div>
 <div class="hallcontent">
@@ -43,10 +52,10 @@
   <div style="margin-left:46% ;padding-top:30px"><h3 class="hall">TEAM</h3></div>
   <table>
      <tr class ="team1">
-        <td><a href="https://www.facebook.com/hazem.bouaziz.9/" data-aos="zoom-in" target="_blank"><img src="hazem.png" width="250px"></a></td>
-        <td><a href="https://www.facebook.com/asma.lansari1" target="_blank"><img src="asma.png" width="250px" data-aos="zoom-in"></a></td>
-        <td><a href="https://www.facebook.com/mohamedhalim.elleuch" target="_blank"><img src="halim.png" width="250px" data-aos="zoom-in"></a></td>
-        <td><a href="https://www.facebook.com/nawfal.guefrachi.77" target="_blank"><img src="nawfal.png" width="250px" data-aos="zoom-in"></a></td>
+        <td><a href="https://www.facebook.com/hazem.bouaziz.9/" data-aos="zoom-in" target="_blank"><img src="static/media/hazem.png" width="250px"></a></td>
+        <td><a href="https://www.facebook.com/asma.lansari1" target="_blank"><img src="static/media/asma.png" width="250px" data-aos="zoom-in"></a></td>
+        <td><a href="https://www.facebook.com/mohamedhalim.elleuch" target="_blank"><img src="static/media/halim.png" width="250px" data-aos="zoom-in"></a></td>
+        <td><a href="https://www.facebook.com/nawfal.guefrachi.77" target="_blank"><img src="static/media/nawfal.png" width="250px" data-aos="zoom-in"></a></td>
      </tr>
      <tr>
         <td></td>
@@ -82,8 +91,8 @@
  <div class="act">
   <table>
     <tr>
-      <td><img src="equipment.jpg" class="image"></td>
-      <td><img src="dance2.jpg" class="image"></td>
+      <td><img src="static/media/equipment.jpg" class="image"></td>
+      <td><img src="static/media/dance2.jpg" class="image"></td>
     </tr>
     <tr><td><div class="description">Strength training is a discipline that aims to develop and maintain
     the muscle mass of practitioners through physical exercises.

@@ -28,13 +28,42 @@
       <div class="main">
         <div class="activities-text">
               
-          <h5>BODY PUMP</h5>
-          <p>
-              The bodybuilding space for general physical maintenance, increase in muscle mass as well as a good aesthetic appearance with weights, dumbbells, weight bench ...
-              </p><p>Gain tone, shape your figure, increase your strength, develop your muscle mass ... Whatever your goal, Galaxy Gym provides you with a complete bodybuilding area.
-              </p><p class="hidden">Stations dedicated to bodybuilding await you, guided machines, free training stations, free weights up to 60 kilos, bars ...
-          </p>
-          <button type="button" class="btn" onclick="unhide()">More</button>
+          <form action="" method="get" >
+            <fieldset>
+                <legend>Force </legend>
+                <br>
+                <table>
+                <tr>
+                    <td><label for="lname">Duration: </label></td>
+                    <td><label for="lname">60 min </label></td>
+                </tr>
+                <tr>    
+                    <td><label for="fname">Materiel: </label></td>
+                    <td><label for="lname">a step,a bar and a set  </label></td>
+                </tr>
+                
+                <tr>
+                    <td><label for="birthday">Date de naissance:</label></td>
+                    <td><input type="date" id="birthday" name="birthday" ></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="email">Adresse E-mail: </label></td>
+                    <td><input type="email" id="email" name="email" placeholder="Saisire votre E-mail" required></td>
+                </tr>
+    
+                <tr>
+                    <td><label for="password">Mot de passe: </label></td>
+                    <td><input type="password" id="password" name="password" placeholder="Saisire votre mot de passe" required>
+                    </td>
+                </tr><tr>
+                    <td><label for="confirme-password">Confirme: </label></td>
+                    <td><input type="password" id="confirme-password" name="confirme-password" placeholder="Confirme votre mot de passe" required>
+                </td></tr>
+    
+            </table>
+            </fieldset>
+        </form> 
       </div>
           <div>
           <img src="static/media/PUMP-min.png">

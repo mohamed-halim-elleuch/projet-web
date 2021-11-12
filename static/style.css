@@ -95,7 +95,7 @@ td{
 
 .pagination {
 	display: inline-flexbox;
-	padding-top: 25px ;
+	padding-top: 20px ;
 	padding-left: 170px;
   }
   
@@ -188,7 +188,6 @@ td{
 	cursor: pointer;
 }
 
-<<<<<<< HEAD
 /* activities section */
 
 .activities{
@@ -197,7 +196,7 @@ td{
 	background-color: #292323;
 }
 
-.activities h2{
+.activities .title{
 	color:white;
 	font-size:70px ;
 	text-transform: capitalize;
@@ -207,17 +206,53 @@ td{
 
 }
 
-.activities .activities-text{
-	width:580px;
-	background-color: rgb(36, 3, 3);
-	padding: 22px;
-	border-radius: 20px;
-	box-shadow: 0 10px 15px 10px rgba(53, 53, 53, 0.2);
+.activities table h2{
+	color:white;
+	font-size: 22px;
 
 }
-=======
-/*Hazem*/
->>>>>>> 093b9dca263bcc9eb77e171e5028f82c776024d1
+.activities .activities-text legend{
+	font-size: 30px;
+	letter-spacing: 3px;
+	color: rgb(199, 192, 192);
+	padding-left: 40px;
+	font-style: italic;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.activities table td{
+	padding: 10px;
+	width: max-content ;
+	font-size: 25px;
+	text-align: justify;
+	letter-spacing: 1.5px;
+}
+
+.activities .activities-text{
+	width:600px;
+	background-color: rgb(36, 3, 3);
+	padding: 18px;
+	border-radius: 20px;
+	box-shadow: 0 10px 15px 10px rgba(88, 87, 87, 0.2);
+
+}
+
+.activities img{
+	height: 400px;
+	width: 580px;
+	border-radius: 20px;
+	margin-top: -20px;
+}
+
+.activities .activities-text h5{
+	color:rgb(230, 33, 33);
+	letter-spacing: 2px;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 45px;
+	text-transform: capitalize;
+}
 
 
 

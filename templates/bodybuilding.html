@@ -1,4 +1,10 @@
 {% extends "index.html" %}
+
+{% block head %}
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+{% endblock %}
+
 {% block body %}
     <section class="about">
         <h2>About</h2>
@@ -29,9 +35,10 @@
         <div class="activities-text">
           <h5>BODY PUMP</h5>
           <form >
-            <fieldset>
+            <fieldset disabled>
                 <legend>Force </legend>
                 <br>
+                
                 <table>
                 <tr>
                     <td><h2>Duration: </h2></td>
@@ -67,6 +74,144 @@
       </div>
   </section>
 
+  <!--------------offers------------>
+
+  <div class="service">
+    <div class="title">
+      <h2>Our Offers</h2>
+    </div>
+        <table >
+          <tr>
+        <td><table data-aos="flip-right" class="tab1">
+          <tr class="title_table">  
+            <td colspan="2"><h5>Basic offer</h5></td></tr>
+          <tr>
+            <th>Option</th>
+            <th>Chicked</th>
+          </tr>
+          <tr>
+            <td>Abdos</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Cardiovascular</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Force</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>BOXE</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>TRX</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Body Pump</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr class='price'>
+            <td><label>Price</label></td>
+            <td>40 DNT</td>
+          </tr>
+        
+        </table></td>
+
+        <td><table data-aos="flip-right" class="tab2">
+          <tr class="title_table">
+            <td colspan="2"><h5>Standard offer</h5></td>
+          </tr>
+          <tr>
+            <th>Option</th>
+            <th>Chicked</th>
+          </tr>
+          <tr>
+            <td>Abdos</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Cardiovascular</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Force</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>BOXE</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>TRX</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Body Pump</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr class='price'>
+            <td><label>Price</label></td>
+            <td>50 DNT</td>
+          </tr>
+        
+        </table></td>
+
+        <td><table data-aos="flip-right" class="tab3">
+          <tr class="title_table">
+            <td colspan="2"><h5>Premium offer</h5></td>
+          </tr>
+          <tr>
+            <th>Option</th>
+            <th>Chicked</th>
+          </tr>
+          <tr>
+            <td>Abdos</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Cardiovascular</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Force</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>BOXE</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>TRX</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr>
+            <td>Body Pump</td>
+            <td><input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked style="background-color: black; border-color: rgb(255, 255, 255);"></td>
+          </tr>
+          <tr class='price'>
+            <td><label>Price</label></td>
+            <td>60 DNT</td>
+          </tr>
+        
+        </table></td>
+
+
+
+      </tr>
+      </table>
+      </div>
+
+    </div>
+  </div>
+
+
+  <script>
+    AOS.init();
+  </script>
+
     <script>
      function unhide() {
     // get the clock
@@ -93,4 +238,5 @@
     }
   }
 </script>
+
 {% endblock %}

@@ -2,27 +2,38 @@ html, body {
     max-width: 100%;
     overflow-x: hidden;
 }
+.nav-link{
+	color:white;
+	border: 2px #08310a ;
+	background-image: linear-gradient(to bottom right, rgb(250, 0, 0), rgb(54, 4, 4));
+	border-radius: 8px;
+}
+.nav-link:hover{
+	color: red;
+	background-image: linear-gradient(to bottom right, #2c2c2c,#2c2c2c);
+	border:2px solid red ;
+}
 
 a {
 	text-decoration: none;
 	margin-right: 3.1rem;
-	margin-left: 1.5rem;
 	color: white;
 }
 .navbar1{
-	background: #444444;
+	background: #2c2c2c;
 	height: 90px;
 	width:100%
 }
+
 .signInUp{
     margin-top: -0.3rem;
 	display: -webkit-inline-flex;
-	margin-right: 30px;
 }
+
 
 .contentnavbar{
 	margin-left:15px;
-	margin-top: -11vmin;
+	margin-top: -60px;
 	width: 100.5%;
 }
 div ul {
@@ -44,7 +55,7 @@ a:hover{
 	width: 100%;
 	height: 210px;
 
-	background: #444444;
+	background: #2c2c2c;
 }
 h1{
 
@@ -124,7 +135,7 @@ td{
 
 .about-text{
 	width:580px;
-	background-image: linear-gradient(to bottom right, rgb(255, 56, 56), black);;
+	background-image: linear-gradient(to bottom right, rgb(255, 56, 56), black);
 	padding: 22px;
 	border-radius: 20px;
 	box-shadow: 0 10px 15px 10px rgba(53, 53, 53, 0.2);

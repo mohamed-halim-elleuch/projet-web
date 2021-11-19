@@ -1,7 +1,7 @@
 a {
 	text-decoration: none;
 	margin-right: 3.1rem;
-	margin-left: 1.5rem;
+	margin-left: -1.5rem;
 	color: white;
 
 }
@@ -14,8 +14,10 @@ html, body {
 .navbar1{
 	background: #444444;
 	height: 90px;
-	width:100%
+	width:100%;
+	
 }
+
 .signInUp{
     margin-top: -0.3rem;
 	display: -webkit-inline-flex;
@@ -101,7 +103,7 @@ td{
 
 .Agoragym {
 	
-    margin-top: -715px;
+    
     position: absolute;
     margin-left: 90px;
     font-weight: bold;
@@ -178,10 +180,7 @@ td{
 
 
 }
-.tab {
-	display: inline-flex;
-	margin-left:-6%;
-}
+
 
 #team {
 	width: 100%;
@@ -189,9 +188,7 @@ td{
 	background-color: black;
 }
 
-#team table{
-	margin-left: -6%;
-}
+
 .team1 {
 	display: block;
     margin-left: 100px;
@@ -235,9 +232,6 @@ td:hover{
 	background-color: white;
 }
 
-.act table{
-	margin-left: -3.5%;
-}
 .image {
 	margin-top: 40px;
 	margin-left: 75px;

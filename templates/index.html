@@ -4,6 +4,7 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="static/style.css">
+   <link rel="stylesheet" type="text/css" href="static/styleh.css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="./vendor/owl-carousel/css/owl.carousel.min.css" >
@@ -21,18 +22,18 @@
          <img src="static/media/logo.png" style="      padding:10px"; width="140px">
          <ul class="contentnavbar">
          
-            <a href="#" style=" margin-left: 120px;">Home</a>
-            <a href="#">About</a>
-            <a href="#">Contact</a>
-            <a href="#">Activities</a>
-            <a href="#">More informations</a>
+            <a href="#home" style=" margin-left: 120px;">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#activities">Activities</a>
+            <a href="#moreinfo">More informations</a>
          
             <input type="text" class ="search"placeholder="   Search.."  >
             <i class="fa fa-close" style="margin-left:-30px;margin-top:7px; color: grey;"></i>
             <!--<i class="fa fa-search" style="margin-left:-200px;color: white;"></i>!-->
             <il class="signInUp">
-               <button type="button" class="btn btn-outline-danger mx-3"  class="signin" >Sign In</button>
-               <button type="button" class="btn btn-outline-danger">Sign Up</button>
+               <a href="/sign_in"><button type="button" class="btn btn-outline-danger mx-3">Sign In</button></a>
+               <a href="/sign_up"><button type="button" class="btn btn-outline-danger">Sign Up</button></a>
             </il>
          </ul>
       </div>
@@ -42,7 +43,7 @@
     {% block body %}{% endblock %}
 
     
-	<footer>
+	<footer id="contact">
 	<table class="footer">
       <tr>
          <td rowspan="5" style="text-align: center;padding:20px"><img src="static/media/logo.png" width="280px" class="logo"></td>

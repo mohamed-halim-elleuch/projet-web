@@ -1,0 +1,353 @@
+html,
+body {
+    max-width: 100%;
+    overflow-x: hidden;
+    background-color: black;
+}
+
+nav ul a {
+    text-decoration: none;
+    margin-right: 2.7rem;
+    margin-left: 2rem;
+    color: white;
+}
+
+nav ul a:hover {
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: rgb(243, 194, 194);
+}
+
+i {
+    margin-right: 2vw;
+    display: inline;
+    color: white;
+}
+
+.navbar1 {
+    background: #0e0808c9;
+    height: 90px;
+    width: 100%;
+    z-index: 999;
+    transition: background 1s ease;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+nav .b2 {
+    margin-top: -0.3rem;
+    margin-right: 30px;
+    border: 0;
+    font-size: 12px;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #8b0000;
+    padding: 4px 28px 6px;
+    outline: none;
+    color: red;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+nav .b2:hover {
+    background: #8b0000;
+    color: white;
+    border-color: #8b0000;
+}
+
+.contentnavbar {
+    margin-left: 15px;
+    margin-top: -69px;
+    width: 97%;
+}
+
+.search {
+    border-radius: 15px;
+    height: fit-content;
+    width: 175px;
+    height: 25px;
+    background-color: #000000ab;
+    border-color: white;
+    border-width: 3px;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    font-size: 10px;
+    padding-bottom: 3px;
+}
+
+.search:focus {
+    border-color: #fa1010;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: #000000ab;
+    padding-bottom: 0px;
+    /*margin-bottom: -18px;*/
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.icon {
+    color: white;
+}
+
+h3 {
+    display: inline;
+    font-size: 15px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin-left: 0px;
+}
+
+td {
+    padding: 5px;
+    width: 150px;
+    min-height: min-content;
+    height: 50px;
+    min-height: min-content;
+    text-align: left;
+    display: inline-flexbox;
+}
+
+.about {
+    margin-top: 90px;
+    color: black;
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 80%), rgba(155, 72, 72, 0.788));
+    text-align: justify;
+    padding: 15px 30px 6px 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.about h5 {
+    margin-top: 0;
+    margin-bottom: .5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(255, 23, 23);
+    font-style: italic;
+}
+
+.about p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+body .about_img {
+    margin: 50px;
+    border-radius: 7px;
+    width: 40%;
+    max-width: 100%;
+    height: 250px;
+}
+
+.grid_academy {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 15px 0px 6px 0px;
+}
+
+.academy {
+    background-image: linear-gradient(to bottom right, rgb(10 10 10 / 80%), #ed8c8cc9);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px 50px 10px 50px;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.academy h5 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 520;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.academy p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 501;
+    font-size: 19px;
+    color: white;
+    line-height: 1.7;
+}
+
+.grid_event {
+    display: grid;
+    grid-row-gap: 50px;
+    grid-template-columns: auto auto auto;
+    padding: 20px 0px 6px 30px;
+    margin-top: 40px;
+}
+
+.grid_event .img_event {
+    margin: 15px;
+    margin-top: 0px;
+    width: 130%;
+    height: 77%;
+}
+
+.grid_event .text_event {
+    background-image: linear-gradient(to bottom right, rgb(14 14 14 / 80%), #f87272c9);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px 30px 0px 35px;
+    font-size: 30px;
+    margin-right: 40px;
+    margin-left: 220px;
+    height: 325px;
+}
+
+.grid_event .text_event h5 {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 520;
+    line-height: 1.3;
+    text-align: center;
+    font-size: 1.7rem;
+    color: white;
+    color: rgb(255, 23, 23);
+    font-style: italic;
+}
+
+.grid_event .text_event p {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    font-weight: 501;
+    font-size: 19px;
+    color: white;
+    line-height: 1.7;
+}
+
+.grid_event .text_event button {
+    font-size: x-large;
+    margin-top: 20px;
+    background-color: rgb(255 255 255 / 75%);
+    color: rgb(245, 26, 26);
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: 600;
+    padding: 4px 40px;
+    border-radius: 30px;
+    transition: .4s;
+}
+
+.grid_event .text_event button:hover {
+    background-color: transparent;
+    border: 2px solid #ff0202;
+    cursor: pointer;
+    color: white;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('media/fontdance.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+ul {
+    color: red;
+    display: flex;
+}
+
+.tab_offers {
+    background-image: linear-gradient(to bottom, rgb(255 255 255 / 80%), rgba(155, 72, 72, 0.788));
+    padding: 13px;
+    border-radius: 10px;
+}
+
+.img_table {
+    width: 150px;
+    background-color: black;
+}
+
+.my_offers {
+    width: 300px;
+}
+
+.input_pad {
+    padding: 2px 0px 2px 40px;
+}
+
+.title_center {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+    color: rgb(26, 0, 0);
+}
+
+.title_center_red {
+    text-align: center;
+    color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: xx-large;
+}
+
+.cont_offers .butt {
+    font-size: 11px;
+    background: #ff2a2ae0;
+    display: block;
+    border: 2px solid rgb(0 0 0 / 0%);
+    padding: 4px 30px 4px 30px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 13px;
+    letter-spacing: 2px;
+}
+
+.tab_offers th {
+    height: 45px;
+    padding: 13px;
+    background-color: rgba(255, 255, 255, 0.2);
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+
+.tab_offers td {
+    height: 40px;
+    font-size: 15px;
+    font-weight: 650;
+    padding-left: 40px;
+}
+
+.my_offers td,
+.my_offers th,
+.my_offers tr {
+    border: 2px solid black;
+}
+
+.cont_offers {
+    margin-bottom: 50px;
+}

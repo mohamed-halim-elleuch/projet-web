@@ -1,4 +1,197 @@
-{% extends "index.html" %}
-{% block body %}
-    <p>dance</p>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="static\css\bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="static\styledance.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="vendor\owl-carousel\css\owl.carousel.min.css">
+    <link rel="stylesheet" href="vendor\owl-carousel\css\owl.theme.default.min.css">
+    <title>Dance Page</title>
+</head>
+
+<body>
+    <nav>
+        <div class="navbar1">
+            <img src="static\media\logo.png" style=" padding:10px" ; width="140px">
+            <ul class="contentnavbar">
+
+                <a href="#home" style=" margin-left: 120px;">Home</a>
+                <a href="#about">About</a>
+                <a href="#academy">Academy</a>
+                <a href="#activities">Activities</a>
+                <a href="#offers">Offers</a>
+
+                <input type="text" class="search" placeholder="   Search..">
+                <!--<i class="fa fa-close" style="margin-left:-30px;margin-top:7px; color: grey;"></i>!-->
+
+                <a class="b2" href="{{ url_for('sign_in') }}">Sign In</a>
+                <a class="b2" href="{{ url_for('sign_up') }}">Sign Up</a>
+
+
+            </ul>
+        </div>
+    </nav>
+
+    <section class='about' id='#about'>
+        <h5>ABOUT US</h5>
+        <p>We are a dance academy located in the Agora Gym. We are popular because we absolutely, positively love what we do. We live dance, breathe dance and we get to share dance with the world. We have earned the trust of our community, which is invaluable
+            to us. In addition to having won multiple competitions across the country, we work relentlessly to be an organized, professional and responsible local adult and youth dance studio, while maintaining the core values of our world famous brand.
+            Furthermore, different TV Channels and many companies have entrusted us to be the #1 provider of dance and choreography talent for movies, concerts, TV shows, commercials and award shows.</p>
+    </section>
+    <div style='text-align:center'>
+        <img class='about_img' src="static\media\Image1.png" alt="Dance Shows" media="center"></div>
+    <div class="grid_academy" id='academy'>
+        <section class='academy'>
+            <h5>PRE-ACADEMY</h5>
+            <p>We designed a pre-academy studying program to hone the dance skills of our members before they join the advanced class. Groups are divided by age :</p>
+            <p>Beginner class 3+ (20 per class)</p>
+            <p>Beginner class 6+ (20 per class)</p>
+            <p>Beginner class 9+ (30 per class)</p>
+            <p>Beginner class 14+ (30 per class)</p>
+        </section>
+        <section class='academy'>
+            <h5>ACADEMY</h5>
+            <p>To provide the best possible dance education in a fun and welcoming environment through teaching excellence, fostering creativity, and nurturing respect for diversity. Focusing on technical expertise, strong technique, and discipline as well
+                as improvisation, choreography, and body awareness. To guarantee that dancers become not only confident in their skills but also aware of the importance of teamwork, discipline, and respect for each other.</p>
+            <p>Advanced class 9+ (30 per class)</p>
+            <p>Advanced class 14+ (30 per class)</p>
+        </section>
+    </div>
+    <section class='grid_event' id='activities'>
+        <img class="img_event" src="static\media\Image2.png" alt="Workshop Poster">
+        <div class="text_event">
+            <h5>EVENTS</h5>
+
+            <p>Come and join us now on a hip-hop dance workshop by the famous dancer Carolina, that will be held on june 2022, and it's only 20 DT per person ! Don't hesitate, reserve your place now and subscribe to the workshop. Places are limited, so hurry
+                up !</p>
+            <button type="button" name="Join">Join</button>
+        </div>
+    </section>
+
+    <section class='cont_offers' id='offers'>
+        <table class='tab_offers'>
+            <tr>
+                <td rowspan='3' class='img_table'>
+                    <img style="margin-top: -175px; transform: rotate(340deg);" src="static\media\camera.png" width="150px" class="logo">
+                </td>
+
+                <td colspan='2'>
+                    <h5 class='title_center_red'>OFFERS</h5>
+                </td>
+                <td class='img_table' rowspan='3'>
+                    <img style="margin-top: 175px;transform: rotate( 20deg);" src="static\media\cadeau.png" width="120px" class="logo">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <h4 class='title_center'>My Offers</h4>
+                </td>
+                <td>
+                    <h4 class='title_center'>New Offer</h4>
+                </td>
+            </tr>
+            <tr>
+                <td class='my_offers'>
+                    <div style="padding: 13px;margin-bottom: 15px;">
+                        <table>
+                            <tr>
+                                <th>Offer</th>
+                                <th>Obtained</th>
+                                <th>Used</th>
+                            </tr>
+                            <tr>
+                                <td>SOLO</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>DUO</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                            <tr>
+                                <td>TRIO</td>
+                                <td>0</td>
+                                <td>0</td>
+                            </tr>
+                        </table>
+                    </div>
+                </td>
+                <td>
+                    <div style="padding-left: 60px;padding-right: 10px;margin-right: 30px;">
+                        <table>
+                            <tr>
+                                <td>Solo</td>
+                                <td>25 DT</td>
+                                <td class='input_pad'><input class="form-control input-lg" type="number" min="0" max="100" maxlength="2" required="" placeholder='0'></td>
+                            </tr>
+                            <tr>
+                                <td style='    border: 3px solid;border-style: solid hidden;'>DUO</td>
+                                <td style='    border: 3px solid;border-style: solid hidden;'>15 DT</td>
+                                <td class='input_pad'><input class="form-control input-lg" type="number" min="0" max="100" maxlength="2" required="" placeholder='0'></td>
+                            </tr>
+                            <tr>
+                                <td>TRIO</td>
+                                <td>10 DT</td>
+                                <td class='input_pad'>
+                                    <input class="form-control input-lg" type="number" min="0" max="100" maxlength="2" required="" placeholder='0'>
+                                </td>
+                            </tr>
+                        </table>
+                        <button class="butt">Buy</button>
+                    </div>
+                </td>
+
+            </tr>
+
+        </table>
+    </section>
+
+    <footer id="contact">
+        <table class="footer">
+            <tr>
+                <td rowspan="5" style="text-align: center;padding:20px"><img src="static\media\logo.png" width="280px" class="logo"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <h1>Contact</h1>
+                </td>
+            </tr>
+
+            <tr class="icon">
+                <td>
+                    <i class="fa fa-facebook"></i>
+                    <h3>Agora_Gym</h3>
+                </td>
+                <td><i class="fa fa-linkedin"></i>
+                    <h3>Agora.Gym</h3>
+                </td>
+                <td><i class="fa fa-google"></i>
+                    <h3>agora.gym@gmail.com</h3>
+                </td>
+            </tr>
+            <tr class="icon">
+                <td><i class="fa fa-phone"></i>
+                    <h3>TEL: 71 000 000</h3>
+                </td>
+                <td><i class="fa fa-envelope"></i>
+                    <h3>AgoraGym</h3>
+                </td>
+                <td><i class="fa fa-twitter"></i>
+                    <h3>Agora-Gym</h3>
+                </td>
+            </tr>
+        </table>
+    </footer>
+    <script src=".\js\jquery.3.6.0.js"></script>
+    <script src="C:\Users\user\github\projet-web\static\js\bootstrap.min.js"></script>
+    <script src="C:\Users\user\github\projet-web\vendor\isotope\isotope.min.js"></script>
+    <script src="C:\Users\user\github\projet-web\vendor\Magnific-Popup\dist\jquery.magnific-popup.min.js"></script>
+    <script src="C:\Users\user\github\projet-web\vendor\owl-carousel\js\owl.carousel.min.js"></script>
+    <script src=".\js\main.js"></script>
+</body>
+
+</html>

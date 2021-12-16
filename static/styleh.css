@@ -1,106 +1,165 @@
 a {
-	text-decoration: none;
-	margin-right: 3.1rem;
-	margin-left: 1.5rem;
-	color: white;
-
+    text-decoration: none;
+    color: white;
 }
-html, body {
+
+i {
+    margin-right: 2vw;
+    display: inline;
+    color: white;
+}
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
+    /*background-color: black;*/
 }
 
-
-.navbar1{
-	background: #444444;
-	height: 90px;
-	width:100%
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-image: url('media/fonthome.jpg');
+    background-position: center;
+    background-size: cover;
 }
-.signInUp{
+
+.navbar1 {
+    background: #000000ab;
+    height: 90px;
+    width: 100%;
+    z-index: 999;
+    transition: background 1s ease;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
+}
+
+.navbar2 {
+    background: #00000060;
+    height: 90px;
+    width: 100%;
+}
+
+.first_img {
+    margin-top: 90px;
+}
+
+.signInUp {
     margin-top: -0.3rem;
-	display: -webkit-inline-flex;
-	margin-right: 30px;
+    display: -webkit-inline-flex;
+    margin-right: 30px;
 }
 
-.contentnavbar{
-	margin-left:15px;
-	margin-top: -10vmin;
-	width: 100%;
+nav .b2 {
+    margin-top: -0.3rem;
+    margin-right: 35px;
+    border: 0;
+    font-size: 12px;
+    background: none;
+    display: block;
+    text-align: center;
+    border: 2px solid #8b0000;
+    padding: 7px 20px;
+    outline: none;
+    color: red;
+    border-radius: 40px;
+    transition: 0.25s;
+    cursor: pointer;
+}
 
-}
-div ul {
-	display: grid;
-	grid-auto-flow:column;
-	grid-template-columns: auto auto auto auto;
-	grid-gap: 10px;
-	font-size: 105%;
-	width:70%;
-}
-.search{
-	border-radius: 15px;
-	height:fit-content;
-}
-a:hover{
-	color: red;
-}
-.footer {
-	width: 100%;
-	height: 210px;
-	margin-bottom: 0%;
-	background: #444444;
-}
-h1{
-
+nav .b2:hover {
+    background: #8b0000;
     color: white;
-    font-family:sans-serif;
-}
-.icon{
-		color: white;
-}
-i{
-	margin-right: 2vw;
-	display: inline;
-	color: white;
-	
+    border-color: #8b0000;
 }
 
-h3{
-		display: inline;
-		font-size: 15px;
-		color: white;
+.contentnavbar {
+    margin-left: 15px;
+    margin-top: -67px;
+    width: 100.5%;
 }
 
-
-table{
-	width:100%;
-	margin-left: 0px;
+div ul {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 10px;
+    font-size: 105%;
+    width: 70%;
 }
 
-td{
-	padding: 5px;
-	width: 150px;
-	min-height: min-content;
-	height: 50px;
-	min-height: min-content;
-	text-align: left;
-	display: inline-flexbox;
+.search {
+    border-radius: 15px;
+    height: fit-content;
+    width: 175px;
+    height: 27px;
+    background-color: #000000ab;
+    border-color: white;
+    border-width: 3px;
+    font-size: 11px;
 }
-.image-container{
-	
-	width: 1550px;
-	height: 750px;
-	position: relative;
 
+a:hover {
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    height: 210px;
+    margin-bottom: 0%;
+    background-color: #000000ab;
+}
+
+h1 {
+    color: white;
+    font-family: sans-serif;
+}
+
+.icon {
+    color: white;
+}
+
+i {
+    margin-right: 2vw;
+    display: inline;
+    color: white;
+}
+
+h3 {
+    display: inline;
+    font-size: 15px;
+    color: white;
+}
+
+table {
+    width: 100%;
+    margin-left: 0px;
+}
+
+td {
+    padding: 5px;
+    width: 150px;
+    min-height: min-content;
+    height: 50px;
+    min-height: min-content;
+    text-align: left;
+    display: inline-flexbox;
+}
+
+.image-container {
+    width: 1550px;
+    height: 750px;
+    position: relative;
 }
 
 .image-container img {
-	width: 100%;
-	height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
-
 .Agoragym {
-	
     margin-top: -715px;
     position: absolute;
     margin-left: 90px;
@@ -109,170 +168,156 @@ td{
     transition-duration: 3s;
     color: white;
 }
+
 .Agoragym:hover {
-	font-size: 50px;
-	color: rgb(255, 77, 77);
-
+    font-size: 50px;
+    color: rgb(255, 77, 77);
 }
-.slogan {
-	font-size: 21px;
 
+.slogan {
+    font-size: 21px;
 }
 
 .Agoragym p {
-	font-size: 25px;
-	margin-top: 40px;
-	font-family: monospace;
-	color: white;
+    font-size: 25px;
+    margin-top: 40px;
+    font-family: monospace;
+    color: white;
+}
 
-	}
-
-.checkboxx{
-	margin-top: -200px;
+.checkboxx {
+    margin-top: -200px;
     position: absolute;
     margin-left: 90px;
     font-size: 30px;
-
-}
-.hall{
-	font-size: 50px;
-	padding-top: -20px;
-
 }
 
-.hallcontent {	
-	width: 100%;
-	height: 662px;	
-	background-color: #808080;
-	position: relative;
+.hall {
+    font-size: 50px;
+    padding-top: -20px;
+    letter-spacing: 3px;
+}
+
+.hallcontent {
+    width: 100%;
+    height: 550px;
+    /*background-color: #808080;*/
+    position: relative;
 }
 
 .facilities {
-	text-align:center ;
-	color: white;
-	font-size: 30px;
-	font-weight: bold;
-	font-family: serif;	
-	padding-top: 30px;
-	}
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: serif;
+    padding-top: 30px;
+}
 
 .box {
-  margin-top: 100px;
-  padding-top: 30px;
-  padding-left: 10px;
-  padding-right:10px ;
-  color: white;
-  background-color: darkgrey;
-  box-shadow: 5px 5px 8px  white, 10px 10px 8px  grey, 15px 15px 8px  black;
-  width: 300px;
-  margin-left: 150px;
-  border-radius: 15px;
-
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: #000000a6;
+    box-shadow: 5px 5px 8px white, 10px 10px 8px grey, 15px 15px 8px black;
+    width: 300px;
+    margin-left: 150px;
+    border-radius: 15px;
 }
-.box p{
 
-	font-size: 26px;
-	color: white;
-	text-align: center;
-	font-family: monospace;
-
-
+.box p {
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    font-family: monospace;
 }
+
 .tab {
-	display: inline-flex;
-	margin-left:-6%;
+    display: inline-flex;
+    margin-left: -6%;
 }
 
-#team {
-	width: 100%;
-	height: 750px;
-	background-color: black;
+.team_table {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+    height: 400px;
+    margin-top: 30px;
+    margin-bottom: 35px;
 }
 
-#team table{
-	margin-left: -6%;
+.team_table,
+.team_table tr,
+.team_table td {
+    text-align: center;
+    filter: brightness(95%);
 }
-.team1 {
-	display: block;
-    margin-left: 100px;
-    margin-right: auto;
-    margin-top: 110px;
-}
-.name{
-	display: inline;
-    margin-left: 183px;
+
+.name {
     font-size: 22px;
     color: white;
-    padding-top: 20px;
-
+    height: 50px;
 }
-.fct{
-	display: inline;
-    margin-left: 166px;
+
+.fct {
     font-size: 20px;
     color: white;
     font-weight: bold;
-    text-align: center;
-    padding-top: 20px;
-
-}
-.fct2{
-	display: inline;
-    margin-left: 188px;
-    font-size: 20px;
-    color: white;
-    font-weight: bold;
-
+    height: 50px;
 }
 
-td:hover{
-	color: red;
-
+td:hover {
+    color: red;
 }
+
 .act {
-	height: 700px;
-	width: all;
-	background-color: white;
+    height: 700px;
+    width: all;
+    /*background-color: white;*/
 }
 
-.act table{
-	margin-left: -3.5%;
+.act table {
+    margin-left: -3.5%;
 }
+
 .image {
-	margin-top: 40px;
-	margin-left: 75px;
-	width: 600px;
-	height: 300px
+    margin-top: 40px;
+    margin-left: 75px;
+    width: 600px;
+    height: 300px;
+    filter: brightness(80%);
+    border-radius: 10px;
 }
+
 .description {
-	width: 600px;
-	height: 300px;
-	background-color:#808080 ;
-	margin-top: 5px;
-	margin-left: 75px;
-	border:  solid 2px;
-	border-color: red;
-	font-size: 25px;
-	padding: 35px;
-	text-align: center;
+    width: 600px;
+    height: 300px;
+    background-color: #00000057;
+    margin-top: 5px;
+    margin-left: 75px;
+    border: solid 2px;
+    border-color: red;
+    font-size: 25px;
+    padding: 35px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
 }
 
 .description:hover {
-	color: white;
+    color: rgb(247, 95, 95);
 }
+
 .hours1 {
-	width: 300px;
-	height: 450px;
-	text-align: center;
+    width: 300px;
+    height: 450px;
+    text-align: center;
     padding-top: 30px;
     color: white;
     font-size: 20px;
     text-align: right;
     margin-right: 100px;
 }
-
-
-
-
-
-

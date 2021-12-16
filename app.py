@@ -24,4 +24,4 @@ def sign_up():
     return render_template('sign_up.html',title="sign up")
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0',debug=True)

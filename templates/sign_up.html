@@ -1,4 +1,108 @@
-{% extends "index.html" %}
-{% block body %}
-    <p>Sign up</p>
-{% endblock %}
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="static\bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="static\style1sign.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <title>Sign Up</title>
+</head>
+<body background=url("static\media\body.jpg")>
+	<nav>
+      <div class="navbar1">
+         <img src="static\media\logo.png" style=" padding:10px"; width="140px">
+         <ul class="contentnavbar">
+         
+            <a href="{{ url_for('home') }}" style=" margin-left: 120px;">Home</a>
+            <a href="{{ url_for('home') }}">About</a>
+            <a href="{{ url_for('home') }}">Contact</a>
+            <a href="{{ url_for('home') }}">Activities</a>
+            <a href="{{ url_for('home') }}">More informations</a>
+         
+            <input type="text" class ="search"placeholder="Search.." >
+            
+            <ul class="signInUp">
+               <a class="b1" href="{{ url_for('sign_in') }}" >Sign In</a>       
+                    </ul>
+         </ul>
+      </div>
+	</nav>
+
+
+
+	<div id="main">
+    <form class="box" action="index.html" method="post">
+   <ul>
+   <li>S</li>
+   <li>i</li>
+    <li>g</li>
+     <li>n</li>
+      <li>U</li>
+       <li>p</li>
+
+  </ul>
+    <hr>
+  
+  
+<h4>Connect with:</h4>
+<table class="tab1">
+  <tr class="icon">
+            <td>
+               <i class="fa fa-facebook" ></i></td>
+        <td> <i class="fa fa-google" i></i></td>			
+         </tr>
+<tr>
+<td><input type="text" name="" placeholder="first name"></td>
+ <td> <input type="text" name="" placeholder="Last name"></td>
+ </tr>
+<tr>
+<td>  <input type="text" name="" placeholder="Pseudo name"></td>
+<td>  <input type="date" name="" placeholder="Birthday"></td>
+ </tr> 
+  <tr>
+  <td colspan="2"><input type="email" name="" placeholder="Email"></td>
+  </tr>
+
+<tr>
+<td><input type="password" name="" placeholder="Password"></td>
+  <td><input type="password" name="" placeholder="Confirm your password"></td>
+  </tr>
+  <tr>
+  <td colspan='2'><input type="submit" name="Login" value="Register"></td>
+  </tr>
+  
+  </table>
+
+</form>
+
+	</div>
+    
+
+	<footer>
+	<table class="footer">
+      <tr>
+         <td rowspan="5" style="text-align: center;padding:20px"><img src="static\media\logo.png" width="280px" class="logo"></td>
+      </tr>
+      <tr>
+         <td colspan="3"><h1>Contact</h1></td>
+      </tr>
+      
+         <tr class="icon">
+            <td>
+               <i class="fa fa-facebook"></i>
+               <h3>Agora_Gym</h3>
+            </td>
+            <td><i class="fa fa-linkedin"></i><h3>Agora.Gym</h3></td>
+            <td><i class="fa fa-google"></i><h3>agora.gym@gmail.com</h3></td>			
+         </tr>
+         <tr class="icon">
+            <td><i class="fa fa-phone"></i><h3>TEL: 71 000 000</h3></td>
+            <td><i class="fa fa-envelope"></i><h3>AgoraGym</h3></td>
+            <td><i class="fa fa-twitter"></i><h3>Agora-Gym</h3></td>
+         </tr>
+      </table>
+	</footer>
+</body>
+</html>

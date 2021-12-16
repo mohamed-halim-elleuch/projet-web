@@ -1,3 +1,8 @@
+/* Mohamed halim Elleuch */
+
+
+/*style de page bodybuilding.html*/
+
 html,
 body {
     max-width: 100%;
@@ -5,7 +10,6 @@ body {
     /*background-color: black;*/
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,700&display=swap');
 body {
     margin: 0;
     padding: 0;
@@ -50,12 +54,6 @@ i {
     position: fixed;
     top: 0;
     overflow: hidden;
-}
-
-.signInUp {
-    margin-top: -0.3rem;
-    display: -webkit-inline-flex;
-    margin-right: 30px;
 }
 
 nav .b2 {

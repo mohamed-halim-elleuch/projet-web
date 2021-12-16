@@ -1,4 +1,10 @@
-html, body {
+/* Nawfel Guefrachi */
+
+
+/*style de page signin.html*/
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
@@ -9,12 +15,13 @@ a {
     margin-left: 1.5rem;
     color: white;
 }
-i{
-	margin-right: 2vw;
-	display: inline;
-	color: white;
-	
+
+i {
+    margin-right: 2vw;
+    display: inline;
+    color: white;
 }
+
 .navbar1 {
     background: #000000ab;
     height: 100px;
@@ -67,7 +74,7 @@ nav .b2:hover {
     margin-left: 15px;
     margin-top: -80px;
     width: 100%;
-} 
+}
 
 div ul {
     display: grid;

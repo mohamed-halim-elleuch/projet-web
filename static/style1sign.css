@@ -1,29 +1,36 @@
-html, body {
+/* Nawfel Guefrachi */
+
+
+/*style de page signup.html*/
+
+html,
+body {
     max-width: 100%;
     overflow-x: hidden;
 }
+
 a {
     text-decoration: none;
     margin-right: -1rem;
     margin-left: 1.5rem;
     color: white;
 }
-i{
-	margin-right: 2vw;
-	display: inline;
-	color: white;
-	
+
+i {
+    margin-right: 2vw;
+    display: inline;
+    color: white;
 }
 
 .navbar1 {
-        background: #000000ab;
-        height: 100px;
-        width: 100%;
-        z-index: 999;
-        transition: background 1s ease;
-        position: fixed;
-        top: 0;
-        overflow: hidden;
+    background: #000000ab;
+    height: 100px;
+    width: 100%;
+    z-index: 999;
+    transition: background 1s ease;
+    position: fixed;
+    top: 0;
+    overflow: hidden;
 }
 
 nav .b1 {
@@ -64,7 +71,6 @@ div ul {
     font-size: 105%;
     flex-grow: 1;
     align-items: center;
-    
 }
 
 .search {

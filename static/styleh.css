@@ -1,3 +1,8 @@
+/* Hazem Bouaziz */
+
+
+/*style de page home.html*/
+
 a {
     text-decoration: none;
     color: white;
@@ -44,12 +49,6 @@ body {
 
 .first_img {
     margin-top: 90px;
-}
-
-.signInUp {
-    margin-top: -0.3rem;
-    display: -webkit-inline-flex;
-    margin-right: 30px;
 }
 
 nav .b2 {
